@@ -1,0 +1,99 @@
+.todo{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: aliceblue;
+}
+.main{
+    height: 250px;
+    background-color: darkgoldenrod;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+.block-input{
+   margin: 10px;
+   align-items: center;
+}
+.input1, .input2,.input3{
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+width: 200px;
+height: 30px;
+}
+.btn{
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+.list{
+    color: #fff;
+}
+
+.main_list{
+    margin: 20px;
+    margin-top: 30px;
+    background-color: darkgoldenrod;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.del_btn{
+background-color: deepskyblue;
+color:#fff;
+border: none;
+width: 80px;
+height: 30px;
+border-radius: 8px;
+}
+.del_btn:hover{
+    transform: scale(1,1);
+}
+.image{
+width: 50%;
+border-radius: 10px;
+}
+.list{
+    width: 450px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: darkgoldenrod;
+    overflow:scroll;
+}
+.info{
+    width: 400px;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 20px;
+}
+.textDiv{
+    width: 100px;
+    padding-right: 80px;
+/* text-align: center; */
+
+}
+.p1,.p2{
+    align-items: center;
+    width: 140px;
+    color:black;
+    background-color: darkgoldenrod;
+    border-radius: 8px;
+}
+.delBtn{
+    width: 70px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: #fff;
+}
